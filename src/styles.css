@@ -9,25 +9,31 @@ html {
 }
 
 body {
+  max-width: 1280px;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   /* display: flex; */
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
     'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   background-image: url('images/bg-pattern.png');
 }
 
+.input {
+  width: 90%;
+  margin: 10px 20px 0;
+}
+
 .intro {
   text-align: center;
 }
 
-.intro h1 {
+li {
   margin-top: 0;
-  font-weight: 500;
-  font-size: 40px;
+  font-weight: 400;
+  font-size: 30px;
 }
 
 .intro img {
