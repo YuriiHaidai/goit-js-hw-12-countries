@@ -1,11 +1,5 @@
-html {
+* {
   box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 body {
@@ -26,14 +20,14 @@ body {
   font-size: 30px;
 }
 
-.info {
-  display: flex;
-  justify-content: space-between;
-}
-
 .name {
   text-align: center;
   font-size: 60px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
 }
 
 .flag {
